@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "clayrecipefabric",
+  "version": "${version}",
+  "name": "Clay Recipe",
+  "description": "Adds a way to create clay by throwing dirt into water",
+  "authors": [
+    "Jamalam360"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/clayrecipefabric/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.jamalam360.ClayRecipeInit"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "clayrecipefabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.2",
+    "fabric": "*"
+  }
+}
