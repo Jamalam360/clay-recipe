@@ -2,7 +2,9 @@
   "required": true,
   "package": "com.jamalam360.mixin",
   "compatibilityLevel": "JAVA_8",
-  "mixins": ["ItemDrop"],
+  "mixins": [
+    "ItemEntityMixin"
+  ],
   "client": [],
   "server": [],
   "injectors": {

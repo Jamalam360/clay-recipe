@@ -15,7 +15,7 @@ public class ClayRecipeInit implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        log(Level.INFO, "Initializing");
+        log(Level.INFO, "Initializing '" + MOD_NAME + "' under the ID '" + MOD_ID + "'");
     }
 
     public static void log(Level level, String message){

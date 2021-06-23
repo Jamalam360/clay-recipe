@@ -5,19 +5,21 @@
   "name": "Clay Recipe",
   "description": "Adds a way to create clay by throwing dirt into water",
   "authors": [
-    "Jamalam360"
+    "Jamalam360 - Owner, Developer"
   ],
   "contributors": [],
-  "contact": {},
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/clay-recipe-fabric",
+    "issues": "https://github.com/Jamalam360/ClayRecipeFabric/issues",
+    "sources": "https://github.com/Jamalam360/ClayRecipeFabric/tree/main"
+  },
   "license": "MIT",
   "icon": "assets/clayrecipefabric/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
       "com.jamalam360.ClayRecipeInit"
-    ],
-    "client": [],
-    "server": []
+    ]
   },
   "mixins": [
     "clayrecipefabric.mixins.json"
